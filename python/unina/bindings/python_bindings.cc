@@ -22,6 +22,7 @@ namespace py = pybind11;
 /**************************************/
 // BINDING_FUNCTION_PROTOTYPES(
     void bind_my_amplifier(py::module& m);
+    void bind_rms_voltmeter(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
 
 
@@ -51,5 +52,6 @@ PYBIND11_MODULE(unina_python, m)
     /**************************************/
     // BINDING_FUNCTION_CALLS(
     bind_my_amplifier(m);
+    bind_rms_voltmeter(m);
     // ) END BINDING_FUNCTION_CALLS
 }

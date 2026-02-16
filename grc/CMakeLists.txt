@@ -7,4 +7,5 @@
 #
 
 install(FILES
-    unina_my_amplifier.block.yml DESTINATION share/gnuradio/grc/blocks)
+    unina_my_amplifier.block.yml
+    unina_rms_voltmeter.block.yml DESTINATION share/gnuradio/grc/blocks)

@@ -25,7 +25,8 @@ include(GrPybind)
 ########################################################################
 
 list(APPEND unina_python_files
-    my_amplifier_python.cc python_bindings.cc)
+    my_amplifier_python.cc
+    rms_voltmeter_python.cc python_bindings.cc)
 
 gr_pybind_make_oot(unina ../../.. gr::unina "${unina_python_files}")
 

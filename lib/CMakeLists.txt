@@ -12,7 +12,8 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND unina_sources
-    my_amplifier_impl.cc)
+    my_amplifier_impl.cc
+    rms_voltmeter_impl.cc)
 
 set(unina_sources
     "${unina_sources}"

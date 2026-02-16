@@ -10,4 +10,5 @@
 # Install public header files
 ########################################################################
 install(FILES api.h
-    my_amplifier.h DESTINATION include/gnuradio/unina)
+    my_amplifier.h
+    rms_voltmeter.h DESTINATION include/gnuradio/unina)
